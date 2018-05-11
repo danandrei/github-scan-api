@@ -1,0 +1,25 @@
+{
+  "name": "github-scan-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danandrei/github-scan-api.git"
+  },
+  "author": "danandrei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danandrei/github-scan-api/issues"
+  },
+  "homepage": "https://github.com/danandrei/github-scan-api#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.4.0",
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10"
+  }
+}
